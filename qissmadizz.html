@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1 Year Anniversary Video</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .video-container {
+      position: relative;
+      width: 90%;
+      max-width: 900px;
+      aspect-ratio: 16 / 9;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <iframe 
+      src="https://player.vimeo.com/video/1128556424?autoplay=1&loop=0&muted=0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      title="1 Year Anniversary Video">
+    </iframe>
+  </div>
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
